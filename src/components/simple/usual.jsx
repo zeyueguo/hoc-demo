@@ -17,7 +17,10 @@ export default class Usual extends Component {
     }
   }
 
-  render() {
+
+
+
+    render() {
     console.log(this.props, this.state, 'props');
     return (
       <div>

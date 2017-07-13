@@ -9,7 +9,7 @@ const propsProxyHoc = WrappedComponent => class extends Component {
   render() {
     return (<WrappedComponent
       {...this.props}
-      handleClick={this.handleClick}
+      handleClick={this.handleClick} // 添加props
     />);
   }
 };

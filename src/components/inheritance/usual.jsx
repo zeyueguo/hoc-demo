@@ -3,6 +3,7 @@ import hijackRenderHoc from './hijack-render';
 import iiHoc from './ii-hoc';
 
 @hijackRenderHoc({type: 'add-style', style: { color: 'red'}})
+@hijackRenderHoc({type: 'add-1111', style: { color: 'red'}})
 @iiHoc
 export default class Usual extends Component {
   static log() {

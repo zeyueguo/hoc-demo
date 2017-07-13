@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import formCreate from './form-create';
 
-@formCreate
+@formCreate // state 设置在 @formCreate里面，这里只使用 props
 export default class Login extends Component {
+
   render() {
     return (
       <div>
